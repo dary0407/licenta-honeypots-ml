@@ -1,0 +1,13 @@
+# Ignorăm logurile masive din honeypot-uri
+*.log
+*.json
+*.sqlite
+*.pcap
+
+# Ignorăm folderele de Python virtual environment
+venv/
+env/
+__pycache__/
+
+# Ignorăm dataset-urile foarte mari (dacă ai)
+*.csv
